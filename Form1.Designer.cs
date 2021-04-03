@@ -122,6 +122,7 @@ namespace Calculadora_de_Bhaskara_e_Delta
             this.b.Name = "b";
             this.b.Size = new System.Drawing.Size(125, 27);
             this.b.TabIndex = 12;
+            this.b.TextChanged += new System.EventHandler(this.b_TextChanged);
             // 
             // c
             // 
