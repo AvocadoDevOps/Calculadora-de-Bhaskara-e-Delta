@@ -29,6 +29,7 @@ namespace Calculadora_de_Bhaskara_e_Delta
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             double A2, B2, C2, BHASKARA, DELTAPOSITIVO, DELTANEGATIVO;
             A2 = double.Parse(a.Text);
             B2 = double.Parse(b.Text);
@@ -39,6 +40,9 @@ namespace Calculadora_de_Bhaskara_e_Delta
             MessageBox.Show("BHASKARA : " + BHASKARA, "Resultado", MessageBoxButtons.OK);
             MessageBox.Show("DELTAPOSITIVO : " + DELTAPOSITIVO, "Resultado", MessageBoxButtons.OK);
             MessageBox.Show("DELTANEGATIVO : " + DELTANEGATIVO, "Resultado", MessageBoxButtons.OK);
+            MessageBox.Show("FATAL ERROR: VOCE EH GAY DEMAIS", "Resultado", MessageBoxButtons.OK);
+            MessageBox.Show("VOCE ESCREVEU O NOME DA BRANCH DE DEV ERRADA", "Resultado", MessageBoxButtons.OK);
+            double a, b, c, Bhaskara, Delta;
 
         }
 
@@ -58,3 +62,4 @@ namespace Calculadora_de_Bhaskara_e_Delta
         }
     }
 }
+
