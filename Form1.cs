@@ -29,9 +29,7 @@ namespace Calculadora_de_Bhaskara_e_Delta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 Form2 = new Form2();
-            Form2.Show();
-            double a, b, c, Bhaskara, Delta
+            double a, b, c, Bhaskara, Delta;
 
 
 
