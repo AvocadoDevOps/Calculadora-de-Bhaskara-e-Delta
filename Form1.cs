@@ -29,15 +29,16 @@ namespace Calculadora_de_Bhaskara_e_Delta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("FATAL ERROR: VOCE EH GAY DEMAIS", "Resultado", MessageBoxButtons.OK);
-            MessageBox.Show("VOCE ESCREVEU O NOME DA BRANCH DE DEV ERRADA", "Resultado", MessageBoxButtons.OK);
-            double a, b, c, Bhaskara, Delta;
-
-        }
-
-        private double sqrt(double bhaskara)
-        {
-            throw new NotImplementedException();
+            double A2, B2, C2, DELTA, BHASKARAPOSITIVO, BHASKARANEGATIVO;
+            A2 = double.Parse(A.Text);
+            B2 = double.Parse(B.Text);
+            C2 = double.Parse(C.Text);
+            DELTA = B2 * B2 - 4 * A2 * C2;
+            MessageBox.Show("O valor de Delta é: " + DELTA, "Resultado", MessageBoxButtons.OK);
+            BHASKARAPOSITIVO = -B2 + Math.Sqrt(DELTA) / 2 * A2;
+            MessageBox.Show("O valor de Bhaskara Positiva é: " + BHASKARAPOSITIVO, "Resultado", MessageBoxButtons.OK);
+            BHASKARANEGATIVO = -B2 - Math.Sqrt(DELTA) / 2 * A2;
+            MessageBox.Show("O valor de Bhaskara Negativa é: " + BHASKARANEGATIVO, "Resultado", MessageBoxButtons.OK);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

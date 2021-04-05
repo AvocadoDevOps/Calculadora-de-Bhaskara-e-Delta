@@ -36,9 +36,9 @@ namespace Calculadora_de_Bhaskara_e_Delta
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.a = new System.Windows.Forms.TextBox();
-            this.b = new System.Windows.Forms.TextBox();
-            this.c = new System.Windows.Forms.TextBox();
+            this.A = new System.Windows.Forms.TextBox();
+            this.B = new System.Windows.Forms.TextBox();
+            this.C = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,36 +109,36 @@ namespace Calculadora_de_Bhaskara_e_Delta
             this.label5.Text = "Valor de C\r\n";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // a
+            // A
             // 
-            this.a.Location = new System.Drawing.Point(28, 167);
-            this.a.Name = "a";
-            this.a.Size = new System.Drawing.Size(125, 27);
-            this.a.TabIndex = 11;
+            this.A.Location = new System.Drawing.Point(28, 167);
+            this.A.Name = "A";
+            this.A.Size = new System.Drawing.Size(125, 27);
+            this.A.TabIndex = 11;
             // 
-            // b
+            // B
             // 
-            this.b.Location = new System.Drawing.Point(348, 167);
-            this.b.Name = "b";
-            this.b.Size = new System.Drawing.Size(125, 27);
-            this.b.TabIndex = 12;
-            this.b.TextChanged += new System.EventHandler(this.b_TextChanged);
+            this.B.Location = new System.Drawing.Point(348, 167);
+            this.B.Name = "B";
+            this.B.Size = new System.Drawing.Size(125, 27);
+            this.B.TabIndex = 12;
+            this.B.TextChanged += new System.EventHandler(this.b_TextChanged);
             // 
-            // c
+            // C
             // 
-            this.c.Location = new System.Drawing.Point(663, 167);
-            this.c.Name = "c";
-            this.c.Size = new System.Drawing.Size(125, 27);
-            this.c.TabIndex = 13;
+            this.C.Location = new System.Drawing.Point(663, 167);
+            this.C.Name = "C";
+            this.C.Size = new System.Drawing.Size(125, 27);
+            this.C.TabIndex = 13;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.c);
-            this.Controls.Add(this.b);
-            this.Controls.Add(this.a);
+            this.Controls.Add(this.C);
+            this.Controls.Add(this.B);
+            this.Controls.Add(this.A);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -162,9 +162,9 @@ namespace Calculadora_de_Bhaskara_e_Delta
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox a;
-        private System.Windows.Forms.TextBox b;
-        private System.Windows.Forms.TextBox c;
+        private System.Windows.Forms.TextBox A;
+        private System.Windows.Forms.TextBox B;
+        private System.Windows.Forms.TextBox C;
     }
 }
 
