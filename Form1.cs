@@ -29,8 +29,6 @@ namespace Calculadora_de_Bhaskara_e_Delta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("FATAL ERROR: VOCE EH GAY DEMAIS", "Resultado", MessageBoxButtons.OK);
-            MessageBox.Show("VOCE ESCREVEU O NOME DA BRANCH DE DEV ERRADA", "Resultado", MessageBoxButtons.OK);
             double a, b, c, Bhaskara, Delta;
 
 
