@@ -29,7 +29,10 @@ namespace Calculadora_de_Bhaskara_e_Delta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a, b, c, Bhaskara, Delta;
+            double av, bv, cv, bskv, dltv;
+            av = double.Parse(a.Text);
+            bv = double.Parse(b.Text);
+            cv = double.Parse(c.Text);
 
 
 
