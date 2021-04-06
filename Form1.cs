@@ -29,7 +29,6 @@ namespace Calculadora_de_Bhaskara_e_Delta
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             double A2, B2, C2, DELTA, BHASKARAPOSITIVO, BHASKARANEGATIVO;
             A2 = double.Parse(A.Text);
             B2 = double.Parse(B.Text);
@@ -41,9 +40,6 @@ namespace Calculadora_de_Bhaskara_e_Delta
             BHASKARANEGATIVO = -B2 - Math.Sqrt(DELTA) / 2 * A2;
             MessageBox.Show("O valor de Bhaskara Negativa é: " + BHASKARANEGATIVO, "Resultado", MessageBoxButtons.OK);
         }
-=======
-            double a, b, c, bsk, dlt;
->>>>>>> f9d659a0bf41c3b3179c0904231aa43fffe1f377
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
