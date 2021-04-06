@@ -36,9 +36,9 @@ namespace Calculadora_de_Bhaskara_e_Delta
             C2 = int.Parse(C.Text);
             DELTA = B2 * B2 - 4 * A2 * C2;
             MessageBox.Show("O valor de Delta é: " + DELTA, "Resultado", MessageBoxButtons.OK);
-            BHASKARAPOSITIVO = -B2 + Convert.ToSingle(Math.Sqrt(DELTA)) / 2 * A2;
+            BHASKARAPOSITIVO = -B2 + √DELTA / 2 * A2;
             MessageBox.Show("O valor de Bhaskara Positiva é: " + BHASKARAPOSITIVO, "Resultado", MessageBoxButtons.OK);
-            BHASKARANEGATIVO = -B2 - Convert.ToSingle(Math.Sqrt(DELTA)) / 2 * A2;
+            BHASKARANEGATIVO = -B2 - √DELTA / 2 * A2;
             MessageBox.Show("O valor de Bhaskara Negativa é: " + BHASKARANEGATIVO, "Resultado", MessageBoxButtons.OK);
         }
 
