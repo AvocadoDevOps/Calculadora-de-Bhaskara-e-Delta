@@ -73,7 +73,7 @@ namespace Calculadora_de_Bhaskara_e_Delta
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(326, 292);
+            this.button1.Location = new System.Drawing.Point(318, 293);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(177, 86);
             this.button1.TabIndex = 7;
@@ -148,6 +148,7 @@ namespace Calculadora_de_Bhaskara_e_Delta
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
