@@ -29,10 +29,11 @@ namespace Calculadora_de_Bhaskara_e_Delta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double A2, B2, C2, DELTA, BHASKARAPOSITIVO, BHASKARANEGATIVO;
-            A2 = double.Parse(A.Text);
-            B2 = double.Parse(B.Text);
-            C2 = double.Parse(C.Text);
+            int A2, B2, C2;
+            double DELTA, BHASKARAPOSITIVO, BHASKARANEGATIVO;
+            A2 = int.Parse(A.Text);
+            B2 = int.Parse(B.Text);
+            C2 = int.Parse(C.Text);
             DELTA = B2 * B2 - 4 * A2 * C2;
             MessageBox.Show("O valor de Delta é: " + DELTA, "Resultado", MessageBoxButtons.OK);
             BHASKARAPOSITIVO = -B2 + Math.Sqrt(DELTA) / 2 * A2;
